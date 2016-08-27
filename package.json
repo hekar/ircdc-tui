@@ -1,0 +1,26 @@
+{
+  "name": "ircdc-cli",
+  "version": "1.0.0",
+  "description": "CLI for IRCDC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node debug index.js",
+    "test": "mocha --"
+  },
+  "author": "Hekar Khani",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "bluebird": "^3.4.3",
+    "co": "^4.6.0",
+    "eslint": "^2.13.1",
+    "sockjs-client": "^1.1.1",
+    "superagent": "^2.0.0",
+    "yargs": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "mocha": "^2.5.3"
+  }
+}
